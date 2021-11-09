@@ -18,12 +18,14 @@ need extract inside each task folder
 If you have a gpu, run it on a gpu-inference branch  
 1. make docker image  
 
-  `docker build -t inference-docker -f Dockerfile .` </br>
+  `docker build -t inference-docker -f Dockerfile .` 
 
 2. run docker container  
-  `docker run -v "$PWD:/mnt/work" -it inference-docker` </br>
+
+  `docker run -v "$PWD:/mnt/work" -it inference-docker` 
 
 3. do inference  
+
   `sh all_inference.sh`
 
 ## Presentation PDF
