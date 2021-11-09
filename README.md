@@ -18,7 +18,7 @@ need extract inside each task folder
 If you have a gpu, run it on a gpu-inference branch  
 1. make docker image  
 
-  `docker build -t inference-docker -f Dockerfile .` 
+  `docker build -t inference-docker -f Dockerfile` 
 
 2. run docker container  
 
